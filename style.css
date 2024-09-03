@@ -1,0 +1,131 @@
+header{
+    padding: 10px;
+ }
+ nav ul{
+   display: flex;
+   list-style-type: none;
+   justify-content: space-between;
+   list-style-type: none;
+   align-items: center;
+   margin: 0;
+   gap: 250px;
+ }
+ body {
+   font-family: 'Inter', sans-serif;
+   font-size: 1.125rem;
+   height: 100vh;
+   display: -moz-grid;
+   display: -ms-grid;
+   display: grid;
+   text-shadow: 0px 0px 0.5px #000000;
+   place-items: center;
+   background-color: #ffffff;
+   color: black;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ #container {
+   display: -webkit-flex;
+   display: -moz-flex;
+   display: -ms-flex;
+   display: flex;
+   width: 90%;
+   max-width: 1100px;
+   align-items: center;
+   gap: 2rem;
+ }
+ .container-logo {
+   position: relative;
+ }
+ .container-logo img {
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+ }
+ .local {
+   font-weight: 500;
+   margin-top: 0.5rem;
+ }
+ .nome {
+   font-size: 2rem;
+   font-weight: 900;
+   margin-bottom: 0;
+ }
+ a {
+     text-decoration: none;
+     color: inherit;
+ }
+ p {
+   margin-bottom: 1rem;
+   text-align: justify;
+ }
+ 
+ .botoes {
+   width: 220px;
+   height: 50px;
+   border: none;
+   outline: none;
+   color: #fff;
+   background: #111;
+   cursor: pointer;
+   position: relative;
+   z-index: 0;
+   border-radius: 10px;
+ }
+ 
+ .botoes:before {
+   content: '';
+   position: absolute;
+   top: -2px;
+   left: -2px;
+   background-size: 100%;
+   z-index: -1;
+   filter: blur(5px);
+   width: calc(100% + 4px);
+   height: calc(100% + 4px);
+   animation: glowing 2s linear infinite;
+   opacity: 0;
+   transition: opacity .3s ease-in-out;
+   border-radius: 10px;
+ }
+ 
+ .botoes:active {
+   color: #000;
+ }
+ 
+ .botoes:active:after {
+   background: transparent;
+ }
+ 
+ .botoes:hover:before {
+   opacity: 1;
+ }
+ 
+ .botoes:after {
+   z-index: -1;
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background: #111;
+   left: 0;
+   top: 0;
+   border-radius: 10px;
+ }
+ .redes-sociais {
+  display: flex; 
+  gap: 10px; 
+  margin-top: 10px; 
+}
+
+.redes-sociais img {
+  width: 40px; 
+  height: auto; 
+  transition: transform 0.3s ease;
+}
+.redes-sociais img:hover{
+  transform: scale(1.1);
+  filter: grayscale(0%);
+}
+ 
