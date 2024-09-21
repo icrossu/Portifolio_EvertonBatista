@@ -2,78 +2,74 @@
   font-family: 'Poppins', sans-serif;
   color: white;
 }
-.aboutme-body{
-  background-color: black;
-}
-.homepage-body{
+.aboutme-body, .homepage-body {
   background-color: black;
 }
 header{
-    padding: 10px;
- }
- nav ul{
+    padding: 0.625rem; 
+}
+nav ul{
    display: flex;
    list-style-type: none;
    justify-content: space-between;
-   list-style-type: none;
    align-items: center;
    margin: 0;
-   gap: 250px;
- }
- body {
+   gap: 15.625rem;
+}
+body {
    font-family: 'Inter', sans-serif;
    font-size: 1.125rem;
    height: 100vh;
    display: -moz-grid;
    display: -ms-grid;
    display: grid;
-   text-shadow: 0px 0px 0.5px #000000;
+   text-shadow: 0px 0px 0.03125rem #000000; 
    place-items: center;
    background-color: #ffffff;
    color: black;
    margin: 0;
    padding: 0;
- }
+}
  
- #container {
+#container {
    display: -webkit-flex;
    display: -moz-flex;
    display: -ms-flex;
    display: flex;
    width: 90%;
-   max-width: 1100px;
+   max-width: 68.75rem; 
    align-items: center;
    gap: 2rem;
- }
- .container-logo {
+}
+.container-logo {
    position: relative;
- }
- .container-logo img {
-   width: 300px;
-   height: 300px;
+}
+.container-logo img {
+   width: 18.75rem; 
+   height: 18.75rem; 
    border-radius: 50%;
- }
- .local {
+}
+.local {
    font-weight: 500;
    margin-top: 0.5rem;
- }
- .nome {
+}
+.nome {
    font-size: 2rem;
    font-weight: 900;
    margin-bottom: 0;
- }
- a {
+}
+a {
      text-decoration: none;
      color: inherit;
- }
- p {
+}
+p {
    margin-bottom: 1rem;
    text-align: justify;
- }
+}
  
- .botoes {
-   width: 220px;
-   height: 50px;
+.botoes {
+   width: 13.75rem; 
+   height: 3.125rem;
    border: none;
    outline: none;
    color: #000000;
@@ -81,38 +77,34 @@ header{
    cursor: pointer;
    position: relative;
    z-index: 0;
-   border-radius: 10px;
- }
+   border-radius: 0.625rem; 
+}
  
- .botoes:before {
+.botoes:before {
    content: '';
    position: absolute;
-   top: -2px;
-   left: -2px;
+   top: -0.125rem; 
+   left: -0.125rem;
    background-size: 100%;
    z-index: -1;
-   filter: blur(5px);
-   width: calc(100% + 4px);
-   height: calc(100% + 4px);
+   filter: blur(0.3125rem); 
+   width: calc(100% + 0.25rem); 
+   height: calc(100% + 0.25rem);
    animation: glowing 2s linear infinite;
    opacity: 0;
    transition: opacity .3s ease-in-out;
-   border-radius: 10px;
- }
+   border-radius: 0.625rem; 
+}
  
- .botoes:active {
+.botoes:active {
    color: #020202;
- }
+}
  
- .botoes:active:after {
-   background: transparent;
- }
- 
- .botoes:hover:before {
+.botoes:hover:before {
    opacity: 1;
- }
+}
  
- .botoes:after {
+.botoes:after {
    z-index: -1;
    content: '';
    position: absolute;
@@ -121,17 +113,17 @@ header{
    background: #ffffff;
    left: 0;
    top: 0;
-   border-radius: 10px;
- }
- .redes-sociais {
+   border-radius: 0.625rem;
+}
+.redes-sociais {
   display: flex; 
-  gap: 10px; 
-  margin-top: 10px; 
+  gap: 0.625rem; 
+  margin-top: 0.625rem; 
 }
 
 .redes-sociais img {
-  width: 40px; 
-  height: auto; 
+  width: 2.5rem; 
+  height: auto;
   transition: transform 0.3s ease;
 }
 .redes-sociais img:hover{
@@ -146,18 +138,18 @@ header{
 }
 .aboutme-body{
   font-family: 'Poppins', sans-serif;
-  margin: 10px;
-  padding: 10px;
-  gap: 10px;
+  margin: 0.625rem; 
+  padding: 0.625rem; 
+  gap: 0.625rem; 
 }
 .ferramentas {
   width: 100%;
-  margin: 10px auto;
+  margin: 0.625rem auto; 
   text-align: center;
 }
 
 .ferramentas h2{
-  margin: 50px;
+  margin: 3.125rem; 
 }
 
 .logo-ferramentas {
@@ -165,16 +157,16 @@ header{
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 0.625rem; 
 }
 
 .logo-ferramentas img {
-  width: 100px;
+  width: 6.25rem; 
   height: auto;
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-top: 20px;
-  gap:10px;
+  margin-right: 1.25rem; 
+  margin-left: 1.25rem; 
+  margin-top: 1.25rem; 
+  gap: 0.625rem; 
   transition: transform 0.3s ease;
 }
 .logo-ferramentas img:hover{
